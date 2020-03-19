@@ -1,5 +1,40 @@
 <resources>
     <string name="app_name">Beauty_Fresh</string>
+    <string name="Beauty_Fresh">Beauty Fresh</string>
+    <string name="BeautyFresh">Beauty Fresh</string>
+    <string name="ShippingDetails">Shipping Details</string>
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="Address1">Address</string>
+    <string name="Address">Address</string>
+    <string name="ContactNo">Contact No</string>
+    <string name="Email">Email</string>
+    <string name="Save">Save</string>
+    <string name="Cancel">Cancel</string>
+    <string name="PlaceOrder">Place Order</string>
+    <string name="PaymentDetails">Payment Details</string>
+    <string name="CardType">Card Type</string>
+    <string name="CardNo">Card No</string>
+    <string name="ExpiryDate">Expiry Date</string>
+    <string name="SecurityCode">Security Code</string>
+    <string name="CardName">Card Name</string>
+    <string name="CreditCard">Credit Card</string>
+    <string name="Debit">Debit</string>
+    <string name="Pay">Pay</string>
+    <string name="Edit">Edit</string>
+    <string name="ThanksForYourOrder">Thanks For Your Order</string>
+    <string name="KeepingTouchWithBeautyFresh">Keeping Touch With Beauty Fresh</string>
+    <string name="BeautyFresh1">Beauty Fresh</string>
+    <string name="BodyLotion">Body Lotions</string>
+    <string name="Vaseline" />
+    <string name="Vasline">Vaseline</string>
+    <string name="Nivea">Nivea</string>
+    <string name="price">Rs.1000.00</string>
+    <string name="price1">Rs.1200.00</string>
+    <string name="ADDTOBAG">ADD TO BAG</string>
+    <string name="a1">ADD TO BAG</string>
+    <string name="a2">ADD TO BAG</string>
+    <string name="a3">ADD TO BAG</string>
     <string-array name="UserType">
         <item>User</item>
         <item>Admin</item>

@@ -7,28 +7,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class payment extends AppCompatActivity {
+public class EditPayment extends AppCompatActivity {
     Button btn;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_payment);
-
-        btn = findViewById(R.id.button6);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(payment.this,EditPayment.class);
-                startActivity(intent);
-            }
-        });
+        setContentView(R.layout.activity_edit_payment);
 
         btn = findViewById(R.id.button5);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(payment.this,pay.class);
+                Intent intent = new Intent(EditPayment.this,payment.class);
                 startActivity(intent);
             }
         });

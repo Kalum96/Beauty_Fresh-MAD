@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
  public class MainActivity extends AppCompatActivity {
@@ -16,10 +17,24 @@ import android.widget.Toast;
     Button _btnLogin ;
     Spinner _spinner;
 
+    Button btn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        btn = findViewById(R.id.button3);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,shipping.class);
+                startActivity(intent);
+            }
+        });
+
+
+
         _txtPass = (EditText)findViewById(R.id.txtPass);
         _txtUser = (EditText)findViewById(R.id.txtUser);
         _btnLogin = (Button)findViewById(R.id.btnLogin);
@@ -43,5 +58,7 @@ import android.widget.Toast;
             }
          }
          });
+
+
          }
          }
