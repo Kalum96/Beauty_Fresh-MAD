@@ -134,7 +134,7 @@
         app:srcCompat="@drawable/image01" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textViewCreateAcc"
         android:layout_width="181dp"
         android:layout_height="25dp"
         android:layout_marginStart="8dp"

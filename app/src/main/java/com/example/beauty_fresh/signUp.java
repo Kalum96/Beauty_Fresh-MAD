@@ -4,11 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class usr_regi extends AppCompatActivity {
+public class signUp extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_usr_regi);
+        setContentView(R.layout.activity_sign_up);
+        getSupportActionBar().setTitle("SignUp ");
     }
 }
