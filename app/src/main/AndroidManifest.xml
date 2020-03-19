@@ -9,14 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".hairoil"></activity>
-        <activity android:name=".facecream" />
-        <activity android:name=".Bodylotion" />
-        <activity android:name=".pay" />
-        <activity android:name=".EditPayment" />
-        <activity android:name=".payment" />
-        <activity android:name=".shipping" />
-        <activity android:name=".usr_regi" />
+        <activity android:name=".usr_regi"></activity>
         <activity android:name=".user" />
         <activity android:name=".admin" />
         <activity android:name=".MainActivity">
@@ -26,10 +19,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
