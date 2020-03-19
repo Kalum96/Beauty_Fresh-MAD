@@ -26,7 +26,6 @@ import android.widget.Toast;
         _txtUser = (EditText)findViewById(R.id.txtUser);
         _btnLogin = (Button)findViewById(R.id.btnLogin);
         create = findViewById(R.id.textViewCreateAcc);
-        getSupportActionBar().setTitle("Login ");
 
         //_spinner =(Spinner)findViewById(R.id.spinner);
         ArrayAdapter <CharSequence> adapter = ArrayAdapter.createFromResource( this, R.array .UserType,R.layout.support_simple_spinner_dropdown_item);
